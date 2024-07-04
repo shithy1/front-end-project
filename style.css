@@ -25,3 +25,36 @@ header{
  cursor: pointer;
  transition: 1s;
 }
+#highlightsection{
+    
+    width: 70%;
+    margin:0 auto;
+}
+#highlightsection > h2{
+    font-size: 50;
+    font-weight: 800;
+    text-shadow: rgb(116, 84, 84);
+    text-align: center;
+    margin-bottom: 25px;
+}
+#highlightsection > p{
+margin: 0 auto;
+width: 50%;
+color: rgb(32, 26, 37);
+text-align: center;
+margin border-bottom: 50px;
+}
+#buynowbtn{
+ display: flex;
+ justify-content: center;
+ padding-top: 50px;
+}
+#coverimage{
+    width: 50%;
+    margin:50px auto;
+
+}
+#coverimage img{
+    width: 100%;
+    
+}
