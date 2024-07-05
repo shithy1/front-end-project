@@ -90,3 +90,54 @@ margin border-bottom: 50px;
     justify-content: end;
     
 }
+#cardsection{
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px ;
+}
+.card-image{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.card-image img{
+    width: 100%;
+    height: 300px;
+}
+.card-image :hover{
+background-color: rgb(182, 219, 219);
+}
+.card-title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.card-description{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(207, 205, 205);
+}
+.card-price{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight:600;
+    font-size: 25px;
+
+}
+.card-button{
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
