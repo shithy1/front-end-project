@@ -56,5 +56,37 @@ margin border-bottom: 50px;
 }
 #coverimage img{
     width: 100%;
+}
+#search{
+    width: 70%;
+    margin:50px auto;
+}
+#search > h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#searchcontainer{
+    width: 50%;
+    margin:0 auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+#search-bar{
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+}
+#search-bar > input[type="text"]{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60%;
+}
+#search_button{
+    width: 30%;
+    display: flex;
+    justify-content: end;
     
 }
